@@ -1,0 +1,32 @@
+div {
+	background-color: turquoise;
+	width: 300px;
+	height: 300px;
+}
+.circle {
+	border-radius: 50%;
+	border-top: 150px solid midnightblue;
+
+}
+.circle2 {
+	border-radius: 20%;
+	border-right: 50px solid midnightblue;
+
+}
+.circle3 {
+	border-radius: 80%;
+	border-bottom: 10px solid midnightblue;
+
+}
+.circle5 {
+	border-radius: 90%;
+	border-right: 300px solid midnightblue;
+}
+.circle6 {
+	border-radius: 30%;
+	border-left: 300px solid midnightblue;
+}
+.circle4 {
+	border-radius: 20%;
+	border: 100px solid midnightblue;
+}
