@@ -1,0 +1,63 @@
+.square {
+	height: 10vw;
+	width: 10vw;
+	float: left;
+}
+.red {
+	background-color: red;
+
+}
+.black {
+	background-color: black;
+
+}
+.dot1 {
+	width: 9vw;
+	height: 9vw;
+	border-radius: 50%;
+	background-color: blue;
+	position: relative;
+	left: 10vw;
+    top: 10vw;
+	}
+	.dot1:hover {
+		background-color: pink;
+	}
+	.dot2 {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: blue;
+	position: relative;
+	left: 10px;
+    top: 10px;
+	}
+	.dot2:hover {
+		background-color: pink;
+	}
+	.dot3 {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: blue;
+	position: relative;
+	left: 10px;
+    top: 10px;
+	}
+	.dot3:hover {
+		background-color: pink;
+	}
+		.dot4 {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: blue;
+	position: relative;
+	left: 10px;
+    top: 10px;
+	}
+	.dot4:hover {
+		background-color: pink;
+	}
+
+
