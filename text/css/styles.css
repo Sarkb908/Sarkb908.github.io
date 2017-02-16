@@ -15,16 +15,15 @@ h1 {
 
 h2 {
 	font-size: 30px;
-	text-indent: 350px;
-	padding: 10px;
-	margin-top:1px;
+	padding-left: 900px;
+	padding-top: 100px;
 	color: rgb(138, 7, 7);
 }
 h3 {
 	text-align: left;
 	font-size: 150px;
 	margin: 10px;
-	padding-top: 10px;
+	padding-top: 1px;
 }
 
 h4 {
@@ -41,9 +40,10 @@ h5 {
 
 }
 p {
-	font-size: 48px;
+	font-size: 65px;
 	text-align: left;
 	padding-left: 100px;
+	margin-bottom: 1px;
 }
 a {
 	color: rgb(187, 10, 30);
@@ -51,10 +51,10 @@ a {
 }
 
 blockquote {
-	text-align: right;
-	font-size: 40px;
-	padding-right: 420px;
-	padding-top: 2px;
+	text-align: left;
+	font-size: 	20px;
+	padding-left: 65px;
+	padding-top: 15px;
 
 }
 
@@ -69,10 +69,22 @@ blockquote {
   padding-right: 70px;
 }
 .lw {
-	font-size: 45px;
+	font-size: 40px;
 	margin-top: 30px;
 	margin-right: 500px;
 
+}
+#textbox {
+	width:520px;
+	height:550px;
+	line-height:3em;
+	overflow:scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	padding:1px; 
+	margin-right: 100px; 
+	margin-top: -600px;
+	padding-left: 50%;
 }
 	
  
