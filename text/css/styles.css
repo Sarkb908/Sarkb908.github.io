@@ -20,8 +20,9 @@ h2 {
 	color: rgb(138, 7, 7);
 }
 h3 {
+	/*padding-left: 120px;*/
 	text-align: left;
-	font-size: 150px;
+	font-size: 190px;
 	margin: 10px;
 	padding-top: 1px;
 }
@@ -72,18 +73,20 @@ blockquote {
 	font-size: 40px;
 	margin-top: 30px;
 	margin-right: 500px;
+	padding-left: 10px;
+
 
 }
 #textbox {
 	width:520px;
-	height:550px;
+	height:600px;
 	line-height:3em;
 	overflow:scroll;
 	overflow-y:scroll;
 	overflow-x:hidden;
 	padding:1px; 
 	margin-right: 100px; 
-	margin-top: -600px;
+	margin-top: -690px;
 	padding-left: 50%;
 }
 	
