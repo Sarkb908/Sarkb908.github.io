@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplaySC-Regular.oft');
+}
+html {
+	margin-left: 10%;
+	margin-right: 80px;
+}
+h1 {
+	font-family: ;
+	font-size: 80px;
+	color: aqua;
+
+}
+h2 {
+	font-size: 30px;
+
+}
+
+body {
+	font-family: verdana;
+	font-size: 14px;
+	color: pink;
+	background-color: black;
+
+}
+ p {
+ 	padding-bottom: 25px;
+
+ }
+ img {
+ 	padding: 10px; 
+ }
+ .contact {
+ 	font-size: 20px;
+ 	padding: 10px;
+ 	color: yellow;
+
+
+  }
+
+
+ @media screen and (max-width: 650px) {
+    h1 {
+        font-size: 45px;
+    }
+    body {
+    	font-size: 17px;
+    }
+    h2 {
+    	text-decoration: none;
+    }
+    html {
+    	margin-right: 10%;
+
+    }
+}
+ 
