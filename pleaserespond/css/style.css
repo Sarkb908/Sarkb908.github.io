@@ -7,25 +7,28 @@ html {
 	margin-right: 80px;
 }
 h1 {
-	font-family: ;
+	font-family: Playfair Display;
 	font-size: 80px;
 	color: aqua;
 
 }
 h2 {
-	font-size: 30px;
+	font-size: 50px;
+    font-family: Playfair Display;
+     color: aqua;
 
 }
 
 body {
-	font-family: verdana;
-	font-size: 14px;
+	font-family: times;
+	font-size: 17px;
 	color: pink;
 	background-color: black;
 
 }
  p {
  	padding-bottom: 25px;
+    padding-right: 15%;
 
  }
  img {
@@ -35,17 +38,18 @@ body {
  	font-size: 20px;
  	padding: 10px;
  	color: yellow;
+    font-family: Playfair Display;
+}
 
 
-  }
 
 
  @media screen and (max-width: 650px) {
     h1 {
-        font-size: 45px;
+        font-size: 50px;
     }
     body {
-    	font-size: 17px;
+    	font-size: 20px;
     }
     h2 {
     	text-decoration: none;
@@ -53,6 +57,18 @@ body {
     html {
     	margin-right: 10%;
 
+    }
+    p {
+        padding-right: 2%;
+    }
+    .contact {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    img {
+        margin-right:10px;
     }
 }
  
