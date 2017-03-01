@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+}
+body {
+  transition: background-color 0.5s linear; /*adds animation from dark to light*/ 
+}
+h1 { /*changes content of the html itself*/
+  color: pink;
+  font-size: 80px;
+  position: absolute;
+  top:20px;
+  left: 20px;
+}
+
+.dark {
+  background-color: purple;
+}
+
+.button {
+  position: relative;
+  /*margin: auto;*/
+  top: 200px;
+  left: 90px;
+  width: 100px;
+  height: 200px;
+  border-radius: 8px;
+ /* width: 210px;
+  height: 60px;*/
+  /*background-color: rgb(200, 200, 200);*/
+  background-image: url("../img/dog2.png");
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.focused {
+  /*background-color: rgb(120, 120, 120);
+  border: 1px solid rgb(40, 40, 40);*/
+
+}
+
+.active {
+/*  background-color: rgb(200, 20, 34);*/
+background-image:url("../img/dog1.png");
+top: 50px;
+left: 400px;
+width: 300px;
+height: 200px;
+  /*border: 1px solid rgb(255, 0, 0);*/
+}
+
+
+
+/*
+  switch img
+  width: 120px;
+  height: 358px;
+*/
