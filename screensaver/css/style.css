@@ -1,28 +1,28 @@
 .div1{
 		height: 50vh;
 		width:100vw;
-			background: -webkit-linear-gradient(top, black , darkblue);
+			background: -webkit-linear-gradient;
 			background-repeat: no-repeat;
 			-webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        -webkit-animation: toptransition 9s ease-in infinite;
+        -webkit-animation: one 20s ease infinite;
 
 	}
 	
 	.div2{
 		height: 50vh;
 		width: 100vw;
-		background: -webkit-linear-gradient(top, black , darkblue);
+		background: -webkit-linear-gradient;
 		background-repeat: no-repeat; 
 		-webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        -webkit-animation: bottomtransition 9s ease-in infinite;
+        -webkit-animation: two 20s ease infinite;
 
     }
 
-         @-webkit-keyframes toptransition {
+         @-webkit-keyframes one {
 
-        0% {
+        0%, 100% {
             background: -webkit-linear-gradient(90deg, darkorange, darkorange 10%, #003366, #011c38, black);
         }
         15% {
@@ -56,10 +56,10 @@
     
     }
     
-        @-webkit-keyframes bottomtransition {
+        @-webkit-keyframes two {
 
-        0% {
-            background: -webkit-linear-gradient(90deg, #246024,#003366, #003366, darkorange, darkorange); /*bottom*/
+        0%, 100% {
+            background: -webkit-linear-gradient(90deg, #246024,#003366, #003366, darkorange, darkorange); 
         }
         15% {
             background: -webkit-linear-gradient(90deg, #246024, #003366,#1D2951, darkorange, darkorange);
@@ -83,12 +83,6 @@
             background: -webkit-linear-gradient(90deg, #45827A,#40a4df, darkorange, #FF7F50);
         }
         75% {
-            background: -webkit-linear-gradient(90deg, #45827A,#40a4df, darkorange, #FF7F50);
-        }
-
-        100% {
-            background: -webkit-linear-gradient(90deg, #246024,#003366, #003366, darkorange, darkorange);
+            background: -webkit-linear-gradient(90deg, #006994,#40a4df, darkorange, #FF7F50);
     }
 }
-
-}  
