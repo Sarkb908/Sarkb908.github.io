@@ -1,0 +1,77 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	background: black;
+}
+h1 {
+	font-size: 80px;
+	color:pink;
+}
+h2 {
+	font-size:38px;
+	color:white;
+}
+div.container {
+    width: 100%;
+    border: 1px pink;
+}
+
+footer {
+	padding: 1em;
+    color: black;
+    background-color: black;
+    clear: left;
+    text-align: left;
+}
+
+nav {
+    float: left;
+    max-width: 100px;
+    margin: 130px;
+    padding: 1em;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    color:white;
+    text-decoration: none;
+    text-decoration-color: yellow;
+    text-align: left;
+}
+   
+nav ul a {
+    text-decoration: none;
+    font-family:Times;
+    background-color: firebrick;
+    color: white;
+    padding: 10px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    width: 145px;
+
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px white;
+    margin-right:160px;
+    padding: 1em;
+    overflow: hidden;
+}
+p {
+    font-size: 18px;
+    color:white;
+    margin-right:50px;
+    line-height: 25px;
+}
+blockquote {
+    font-size: 30px;
+    color:pink;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important;} /* End http://www.cursors-4u.com */
