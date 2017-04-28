@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+  width: 60px;
+  margin: 10px auto 0 auto;
+  margin-bottom: 30px;
+  padding: 0;
+ color:white;
+
+}
+
+#weather {
+  height: 100vh;
+  margin-top: 8px;
+  font-size: 200px;
+  width: 100vw;
+  text-align: center;
+  color:black;
+  
+}
+.cold {
+  background-image: url(https://wallpaperscraft.com/image/tops_snow_mountains_cold_blizzard_wind_61573_1920x1080.jpg);
+}
+.hot {
+  background-image: url(http://khns.org/wp-content/uploads/2015/05/WP_20150517_20_57_38_Pro.jpg);
+}
