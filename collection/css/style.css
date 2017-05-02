@@ -1,0 +1,18 @@
+.floated_img
+{
+    float: center;
+}
+html{
+	
+}
+h1 {
+	font-size: 100px;
+	padding-left: 40px;
+}
+h2{
+	padding-left: 40px;
+}
+div {
+	margin: 10px;
+	padding-left: 40px;
+}
