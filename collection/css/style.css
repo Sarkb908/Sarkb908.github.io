@@ -1,6 +1,6 @@
 
 body{
-	font-family: "HelveticaNeue-CondensedBold";
+	font-family: "HelveticaNeue-CondensedBold","HelveticaNeue-Condensed","HelveticaNeue",Helvetica;
 	height: 100%;
 	width: 100%;
 	
@@ -14,7 +14,7 @@ h1 {
 	padding-bottom: 30px;
 	margin-bottom: 5px;
 	margin-top: 10px;
-	animation: color 10s;
+	animation: color 8s;
 	animation-iteration-count: infinite;
 }
 
@@ -39,8 +39,9 @@ div.gallery {
     margin: 5px;
     float: left;
     margin-top: 300px;
-    width: 6500px;
+    width: 5100px;
     height: 50px;
+    margin-left: 30px;
 }
 div.gallery img {
     width: 180px;
@@ -53,15 +54,15 @@ div.gallery img {
 @keyframes color {
   
   0% {
-    color: pink;
+    color: #86C67C;
   }
   25% {
   	color: #FF7F50;
   }
   50% {
-  	color:#86C67C;
+  	color:#66CCCC;
 
   }
   100% {
-    color: pink;
+    color: #86C67C;
   }

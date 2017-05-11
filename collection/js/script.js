@@ -5,7 +5,7 @@ $('img').okzoom({
   round: false,
   background: "#fff",
   backgroundRepeat: "repeat",
-  shadow: "0 0 15px pink",
-  border: "1px pink"
+  shadow: "0 0 15px #66CCCC",
+  border: "1px #66CCCC"
 });
 	});
